@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _login__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./login */ \"./src/login.js\");\n\n\n\nconsole.log('Menu',_menu__WEBPACK_IMPORTED_MODULE_0__[\"default\"]); // eslint-disable-line\n\nwindow.onload = function(){\n    Object(_menu__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n    Object(_login__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n}\n//\n// const arr=['lina','tom','jerry'];\n// arr.map((item)=>{\n//     console.log(item);\n// })\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _login__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./login */ \"./src/login.js\");\n\n\nconsole.log('Menu', _menu__WEBPACK_IMPORTED_MODULE_0__[\"default\"]); // eslint-disable-line\n\nwindow.onload = function () {\n  Object(_menu__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n  Object(_login__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n}; //\n// const arr=['lina','tom','jerry'];\n// arr.map((item)=>{\n//     console.log(item);\n// })\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _men
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Lohgin; });\nfunction Lohgin(){\n    console.log('login'); // eslint-disable-line\n}\n\n\n//# sourceURL=webpack:///./src/login.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Lohgin; });\nfunction Lohgin() {\n  console.log('login'); // eslint-disable-line\n}\n\n//# sourceURL=webpack:///./src/login.js?");
 
 /***/ }),
 
@@ -118,7 +118,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Menu; });\nfunction Menu(){\n    console.log('menu'); // eslint-disable-line\n}\n\n\n//# sourceURL=webpack:///./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Menu; });\nfunction Menu() {\n  console.log('menu'); // eslint-disable-line\n}\n\n//# sourceURL=webpack:///./src/menu.js?");
 
 /***/ })
 

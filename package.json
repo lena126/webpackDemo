@@ -6,12 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development --watch",
-    "build": "webpack --config --mode production"
+    "build": "webpack --mode production"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.8"
-  }
+  },
+  "dependencies": {}
 }
