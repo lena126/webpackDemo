@@ -6,6 +6,7 @@ console.log('Menu',Menu); // eslint-disable-line
 window.onload = function(){
     Menu();
     Login();
+
 }
 //
 // const arr=['lina','tom','jerry'];
